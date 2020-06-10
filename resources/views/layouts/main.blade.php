@@ -7,7 +7,11 @@
 </head>
 <body>
     @include('shared.header')
-    @yield('content')
+    
+    <main>
+        @yield('content')
+    </main>
+    
     @include('shared.footer')
 </body>
 </html>
