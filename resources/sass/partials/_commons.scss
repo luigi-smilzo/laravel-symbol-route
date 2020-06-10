@@ -5,8 +5,18 @@
 }
 
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     font-family: 'Inter', sans-serif;
     color: $col-2;
+}
+
+main {
+    flex-grow: 1;
+    max-width: 900px;
+    display: flex;
+    margin: 100px auto 0 auto;
 }
 
 a {

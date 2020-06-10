@@ -5,8 +5,18 @@
 }
 
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   font-family: "Inter", sans-serif;
   color: #1e1e1e;
+}
+
+main {
+  flex-grow: 1;
+  max-width: 900px;
+  display: flex;
+  margin: 100px auto 0 auto;
 }
 
 a {
@@ -32,5 +42,30 @@ header {
 
 header a {
   margin: 0 0 0 15px;
+}
+
+footer {
+  text-align: center;
+  line-height: 30px;
+  background: #1e1e1e;
+  color: #fafafa;
+}
+
+footer h6 {
+  font-weight: 300;
+}
+
+#about h3 {
+  margin: 0 0 20px 0;
+}
+
+#about p,
+#about h4 {
+  margin: 0 0 10px 0;
+}
+
+#about ul {
+  padding: 0 0 0 20px;
+  list-style-type: square;
 }
 
