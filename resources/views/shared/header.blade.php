@@ -1,6 +1,9 @@
 <header>
     <div class="u-container">
-        <h3>Laravel</h3>
-        <a href="127.0.0.1:8000/about">About Us</a>
+        <h3>Larafake</h3>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About Us</a>
+        </nav>
     </div>
 </header>

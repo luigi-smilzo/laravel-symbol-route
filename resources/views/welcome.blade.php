@@ -1,5 +1,5 @@
 @extends('layouts.main')
 
 @section('content')
-<h1>Welcome to Laravel, {{ $name }}!</h1>
+    <h1>Welcome to Larafake, {{ $name }}!</h1>
 @endsection
